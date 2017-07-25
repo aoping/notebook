@@ -22,6 +22,6 @@ bus.$on('id-selected', function (id) {
 
 4.vuex
 
-5. $refs
+5.$refs
 
 
