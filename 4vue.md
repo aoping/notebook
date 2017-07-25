@@ -21,3 +21,7 @@ bus.$on('id-selected', function (id) {
 建议不用，2.0要废除
 
 4.vuex
+
+5. $refs
+
+
