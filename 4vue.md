@@ -16,6 +16,12 @@ bus.$on('id-selected', function (id) {
   // ...
 })
 ```
+新建 bus.js:
+
+import Vue from 'vue'
+export var bus = new Vue()
+再在组件里面： import bus from 'bus.js'
+
 
 3.$dispatch $broadcast
 建议不用，2.0要废除
