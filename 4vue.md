@@ -6,7 +6,6 @@
 vue2.0里面的event bus(其实就是个发布订阅模式)：
 
 ```
-var bus = new Vue()
 
 // in component A's method
 bus.$emit('id-selected', 1)
