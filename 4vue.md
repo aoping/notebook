@@ -29,5 +29,11 @@ export var bus = new Vue()
 4.vuex
 
 5.$refs
+```
+一定要有0
+this.$refs['chiild'][0].method()
+
+```
+
 
 
