@@ -34,5 +34,9 @@ this.$refs['chiild'][0].method()
 
 ```
 
+### 注意
+props在created阶段获取不到， 可以延迟获取
+
+
 
 
