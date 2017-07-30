@@ -39,6 +39,10 @@
  3. 使用fastclick
  click时间大于300ms
  
+ ## android touch bug
+ android只会触发一次touchstart, 一次touchmove, touchend不触发
+ 解决方案： e.preventdefault
+ 
  
  
  
