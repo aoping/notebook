@@ -21,7 +21,7 @@
 
 
 ## viewport
-- ios viewport 980px   
+- ios viewport 980px   android 不固定
 - visual viewport(视口viewport)
 
 - layout viewport(布局viewport) 
