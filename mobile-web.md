@@ -43,6 +43,18 @@
  android只会触发一次touchstart, 一次touchmove, touchend不触发
  解决方案： e.preventdefault
  
+ ## 弹性滚动
+ - body层自带弹性滚动
+ 
+ 
+ - 局部滚动
+ body{
+ overflow: scroll;
+ -webkit-overflow-scrolling: touch;
+ }
+ 
+ ## 
+ 
  
  
  
