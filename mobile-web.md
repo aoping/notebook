@@ -32,30 +32,30 @@
 ## flex布局 响应式布局
 
 
- ## 用tap代替click
- tap一般时间小于200ms, tap会有点透bug, 与300ms有关， 解决方案
- 1. 使用缓动动画， 过渡300ms的延迟
- 2. 上下都用tap事件
- 3. 使用fastclick
- click时间大于300ms
+## 用tap代替click
+tap一般时间小于200ms, tap会有点透bug, 与300ms有关， 解决方案
+1. 使用缓动动画， 过渡300ms的延迟
+2. 上下都用tap事件
+3. 使用fastclick
+click时间大于300ms
+
+## android touch bug
+android只会触发一次touchstart, 一次touchmove, touchend不触发
+解决方案： e.preventdefault
+
+## 弹性滚动
+- body层自带弹性滚动
+
  
- ## android touch bug
- android只会触发一次touchstart, 一次touchmove, touchend不触发
- 解决方案： e.preventdefault
+- 局部滚动(android不支持，可以使用iscroll库)
+body{
+overflow: scroll;
+-webkit-overflow-scrolling: touch;
+}
+
+## 下拉刷新
  
- ## 弹性滚动
- - body层自带弹性滚动
- 
- 
- - 局部滚动(android不支持，可以使用iscroll库)
- body{
- overflow: scroll;
- -webkit-overflow-scrolling: touch;
- }
- 
- ## 下拉刷新
- 
- ## 上拉加载
+## 上拉加载
  
  
  
