@@ -47,7 +47,7 @@
  - body层自带弹性滚动
  
  
- - 局部滚动
+ - 局部滚动(android不支持，可以使用iscroll库)
  body{
  overflow: scroll;
  -webkit-overflow-scrolling: touch;
