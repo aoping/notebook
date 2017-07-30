@@ -32,5 +32,10 @@
 ## flex布局 响应式布局
 
 
+ ## 用tap代替click
+ tap一般时间小于200ms, tap会有点透bug, 与300ms有关
+ click时间大于300ms
+ 
+ 
  
  
