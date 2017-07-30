@@ -36,6 +36,7 @@
  tap一般时间小于200ms, tap会有点透bug, 与300ms有关， 解决方案
  1. 使用缓动动画， 过渡300ms的延迟
  2. 上下都用tap事件
+ 3. 使用fastclick
  click时间大于300ms
  
  
