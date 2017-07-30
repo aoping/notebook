@@ -22,4 +22,8 @@
 
 ## viewport
 - ios viewport 980px   
+- visual viewport(视口viewport)
+
+- layout viewport(布局viewport) 
+ 
  
