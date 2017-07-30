@@ -25,5 +25,12 @@
 - visual viewport(视口viewport)
 
 - layout viewport(布局viewport) 
+
+## 1px边框
+
+
+## flex布局 响应式布局
+
+
  
  
