@@ -61,6 +61,20 @@ bg-image($url)
     background-image: url($url + "@3x.png")
 ```
 
+## 清除浮动
+```
+.clearfix
+  display: inline-block
+  &:after
+    display: block
+    content: "."
+    height: 0
+    line-height: 0
+    clear: both
+    visibility: hidden
+```
+
+
 ## font-size
 
 ## rem em
