@@ -76,7 +76,7 @@ bg-image($url)
 
 
 ## font-size
-font-size大小一般是设计师考虑到可读性, 所以不用几倍计算
+font-size大小一般是设计师考虑到可读性, 所以不用几倍计算, 直接px就可以
 ## rem em
 
 ## flex布局
