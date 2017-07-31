@@ -10,4 +10,8 @@
 * [3.1weex](31weex.md)
 * [4.vue](4vue.md)
 * [5.mobile web](mobile-web.md)
+* 5.1fastclick
+* 5.2iscroll
+* [5.3jquery-mobile](jquery-mobile.md)
+* 5.4zepto
 
