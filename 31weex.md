@@ -10,3 +10,7 @@
 - weex 实例ios deviceModel bug
 
 
+##　viewappear
+
+
+
