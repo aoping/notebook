@@ -1,3 +1,5 @@
+
+  
 ## 像素单位
 
 - px 逻辑像素， 浏览器使用的抽象单位， 根据设备可大可小
@@ -110,8 +112,10 @@ overflow: scroll;
  
 ## 上拉加载
  
- 
- 
+# 参考 
+- https://cloud.tencent.com/community/article/646185
+- http://www.imooc.com/learn/494
+
  
  
  
