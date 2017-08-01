@@ -14,4 +14,5 @@
 * 5.2iscroll
 * [5.3jquery-mobile](jquery-mobile.md)
 * 5.4zepto
+* [6.ios](6ios.md)
 
