@@ -14,3 +14,8 @@
 - ios 第一次进入有时候不会触发, 首页触发但不会更新数据
 - android 首页也不会更新数据
 - 页面上有错误, 触发但不更新数据
+
+## 界面间传值
+- query参数
+- storage
+- broadcastchannel
