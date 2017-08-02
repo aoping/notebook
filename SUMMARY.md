@@ -15,5 +15,5 @@
 * [5.3jquery-mobile](jquery-mobile.md)
 * 5.4zepto
 * [6.ios](6ios.md)
-* [7.性能优化](7xing-neng-you-hua.md)
+* [7.性能优化及自动化](7xing-neng-you-hua.md)
 
