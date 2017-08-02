@@ -1,3 +1,3 @@
 - 缓存
 
- [缓存版本控制](localSdk.js)
+ [缓存版本控制代码](localSdk.js)
