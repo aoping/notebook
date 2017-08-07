@@ -17,8 +17,11 @@
 - git rebase --abort
 
 ## 功能分支工作流
-
-
+- git checkout -b marys-feature (git checkout -b marys-feature master)
+- git push -u origin marys-feature
+```
+-u选项设置本地分支去跟踪远程对应的分支
+```
 - 开发者每次在开始新功能前先创建一个新分支。 功能分支应该有个有描述性的名字，比如animated-menu-items或issue-#1061，这样可以让分支有个清楚且高聚焦的用途。
 
 ## Gitflow工作流
