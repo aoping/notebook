@@ -14,7 +14,7 @@
 - git pull --rebase (git pull --rebase origin master)
 - git add <some-file> 
 - git rebase --continue
-
+- git rebase --abort
 
 ## 功能分支工作流
 
