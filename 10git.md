@@ -22,6 +22,23 @@
 ```
 -u选项设置本地分支去跟踪远程对应的分支
 ```
+- 合并提交
+```
+git checkout master
+git pull
+git pull origin marys-feature
+git push
+```
+- rebase提交
+```
+git checkout marys-feature
+git pull # 确认是最新的
+git pull --rebase origin master # rebase新功能到master分支的顶部
+
+git checkout master
+git merge marys-feature # 合并marys-feature分支的修改，因为这个分支之前对齐（rebase）了master，一定是快进合并
+git push
+```
 - 开发者每次在开始新功能前先创建一个新分支。 功能分支应该有个有描述性的名字，比如animated-menu-items或issue-#1061，这样可以让分支有个清楚且高聚焦的用途。
 
 ## Gitflow工作流
