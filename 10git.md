@@ -9,6 +9,9 @@
 - git commit # 提交文件
 - git rebase
 - git push (git push origin master)
+```
+主流的git版本，可以省略后面2个参数：远程仓库别名、推送分支
+```
 
 
 ## 功能分支工作流
