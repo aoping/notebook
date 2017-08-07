@@ -2,6 +2,13 @@
 [Git Workflows and Tutorials](https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorials)
 
 ## 集中式工作流
+- git init --bare /path/to/repo.git
+- git clone
+- git status # 查看本地仓库的修改状态
+- git add # 暂存文件
+- git commit # 提交文件
+- git rebase
+- git push (git push origin master)
 
 
 ## 功能分支工作流
