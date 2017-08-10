@@ -21,6 +21,9 @@
     
 - 解决业务问题不同
 
+## 资料
+deeplearnjs https://github.com/PAIR-code/deeplearnjs
+
 
 
 
