@@ -6,6 +6,7 @@
 * [1.1 vs code](11-vs-code.md)
 * [2.nodejs](2nodejs.md)
 * [2.1express](21express.md)
+* [2.2mongodb](22mongodb.md)
 * [3.hybrid](3hybrid.md)
 * [3.1weex](31weex.md)
 * [4.vue](4vue.md)
@@ -18,5 +19,5 @@
 * [7.性能优化及自动化](7xing-neng-you-hua.md)
 * [8.增量发布](8zeng-liang-fa-bu.md)
 * [9.机器学习](9ji-qi-xue-xi.md)
-* [10.git](10git.md)
+* 2.2mongodb
 
