@@ -10,7 +10,7 @@ uri包含url
 
 
 #### 测试性能
-apctch ab
+apache ab
 ```
 ab -n1000 -c10 http://www.imooc.com
 ```
