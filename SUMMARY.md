@@ -5,6 +5,7 @@
 * [1.编辑器](1bian-ji-qi.md)
 * [1.1 vs code](11-vs-code.md)
 * [2.nodejs](2nodejs.md)
+* [2.1nodejs](21nodejs.md)
 * [2.1express](21express.md)
 * [2.2mongodb](22mongodb.md)
 * [2.3jade](23jade.md)
@@ -20,5 +21,5 @@
 * [7.性能优化及自动化](7xing-neng-you-hua.md)
 * [8.增量发布](8zeng-liang-fa-bu.md)
 * [9.机器学习](9ji-qi-xue-xi.md)
-* 2.3jade
+* [2.1nodejs](21nodejs.md)
 
