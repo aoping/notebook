@@ -6,3 +6,11 @@ uri包含url
 
 #### node版本
 第二位奇数为稳定版， 偶数为实验版
+
+
+
+#### 测试性能
+apctch ab
+```
+ab -n1000 -c10 http://www.imooc.com
+```
