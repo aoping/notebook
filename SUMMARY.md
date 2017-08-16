@@ -23,4 +23,5 @@
 * [9.机器学习](9ji-qi-xue-xi.md)
 * [2.1nodejs](21nodejs.md)
 * [es6](es6.md)
+* [其他](qi-ta.md)
 
