@@ -19,3 +19,15 @@ ab -n1000 -c10 http://www.imooc.com
 
 #### npm插件
 - cheerio 解析html
+
+### 会话持久化
+1. 存到cookies里面
+2. 存到redis
+3. 存到mongodb(用connect-mongo)
+
+#### 常见问题
+- Cannot find module './build/Release/sharp'
+    
+    参考 https://github.com/nodejs/node-gyp#installation
+        https://github.com/lovell/sharp/issues/598
+
