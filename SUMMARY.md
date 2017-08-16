@@ -22,4 +22,5 @@
 * [8.增量发布](8zeng-liang-fa-bu.md)
 * [9.机器学习](9ji-qi-xue-xi.md)
 * [2.1nodejs](21nodejs.md)
+* [es6](es6.md)
 
