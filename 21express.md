@@ -32,7 +32,36 @@ nodemailer
 
 
 
-# keystone
+
+
+# 代码段
+
+## 上传保存文件
+
+```javascript
+
+exports.saveFile = function(req, res, next) {
+    var posterData = req.files.filefield
+    var filePath = posterData.path
+    var originalFilename = posterData.originalname
+    if (originalFilename) {
+        fs.readFile(filePath, function(err, data) {
+            var jsVersion = req.body.jsVersion
+            var type = posterData.extension
+            var poster = jsVersion + '.' + type
+            var newPath = path.join(__dirname, '../', '/hybrid-bundle-repository/bundle/' + poster)
+
+            fs.writeFile(newPath, data, function(err) {
+                req.poster = '/hybrid-bundle-repository/bundle/' + poster
+                next()
+            })
+        })
+    } else {
+        next()
+    }
+};
+```
+
 
 ## keystone 数据库操作
 ```javascript
