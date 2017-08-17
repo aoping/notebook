@@ -21,4 +21,7 @@
 * [7.性能优化及自动化](7xing-neng-you-hua.md)
 * [8.增量发布](8zeng-liang-fa-bu.md)
 * [es6](es6.md)
+* [其他](qi-ta.md)
+* [架构](jia-gou.md)
+* [项目构建](xiang-mu-gou-jian.md)
 
