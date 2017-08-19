@@ -16,4 +16,5 @@
 es6默认开启"use strict"
 Object.assign()浅拷贝
 Set主要用于去重
-
+Proxy主要用于拦截
+Proxy和Reflect用于验证
