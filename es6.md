@@ -14,3 +14,6 @@
 
 ### 知识点
 es6默认开启"use strict"
+
+
+Object.assign()浅拷贝
