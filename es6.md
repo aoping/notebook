@@ -19,6 +19,6 @@ Set主要用于去重
 Proxy主要用于拦截
 Proxy和Reflect用于验证
 class 构造函数 get set 继承 静态方法(static) 静态属性
-自己部署iterator接口
-
-
+自己部署iterator接口， 可以自己写也可以用generator定义
+generator yield返回的是iterator类型， 可以实现状态机（async和await是generator的语法糖）
+第三方库修饰器的js库：core-decorators; npm install core-decorators
