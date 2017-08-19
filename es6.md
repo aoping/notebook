@@ -19,3 +19,6 @@ Set主要用于去重
 Proxy主要用于拦截
 Proxy和Reflect用于验证
 class 构造函数 get set 继承 静态方法(static) 静态属性
+自己部署iterator接口
+
+
