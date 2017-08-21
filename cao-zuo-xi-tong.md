@@ -32,3 +32,5 @@
 - ubuntu官网    http://cn.ubuntu.com/internet-of-things/
 
 
+# 虚拟机
+- virtualbox安装ubuntu    http://www.linuxidc.com/Linux/2015-08/121807.htm
