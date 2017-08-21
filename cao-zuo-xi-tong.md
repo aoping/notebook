@@ -13,7 +13,9 @@
 - 撤销定时关机    win+r再输入shutdown -a
 - 快速清理磁盘    win+r再输入 cleanmgr,选择需要清理的磁盘
 
-
+# Ubuntu
+## 快捷键
+![](/assets/TIM截图20170821131403.png)
 
 # 360浏览器
 
