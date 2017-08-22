@@ -106,5 +106,9 @@ Post.register();
 ```
 
 ### 问题
-Keystone not start on node 7.x.
+- Keystone not start on node 7.x.
+
+- Error: Module version mismatch, Expected 47, got 48
+
+node的版本不对，sharp要求是6.10.0， 切换版本后rebuild ``` npm rebuild```
 
