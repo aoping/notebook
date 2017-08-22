@@ -104,3 +104,7 @@ Post.schema.pre('save', function(next) {
 
 Post.register();
 ```
+
+### 问题
+Keystone not start on node 7.x.
+
