@@ -17,6 +17,7 @@
 ## 快捷键
 ![](/assets/TIM截图20170821131403.png)
 
+
 # 360浏览器
 
 ## 快捷键
@@ -36,3 +37,5 @@
 
 # 虚拟机
 - virtualbox安装ubuntu    http://www.linuxidc.com/Linux/2015-08/121807.htm
+- virtualbox安装不了增强功能， 需要更新下virtualbox（virtualbox的bug）
+
