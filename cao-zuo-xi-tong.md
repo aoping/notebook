@@ -39,3 +39,15 @@
 - virtualbox安装ubuntu    http://www.linuxidc.com/Linux/2015-08/121807.htm
 - virtualbox安装不了增强功能， 需要更新下virtualbox（virtualbox的bug）
 
+## 虚拟机安装
+- 谷歌浏览器
+- 搜狗输入法
+- vscode
+- mongodb
+- mongoose
+- git
+- gitkraken
+- nvm
+- node
+- cnpm
+- 
