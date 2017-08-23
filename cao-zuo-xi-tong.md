@@ -16,7 +16,7 @@
 # Ubuntu
 ## 快捷键
 ![](/assets/TIM截图20170821131403.png)
-
+- 编辑文本用 gedit/vi/vim
 
 # 360浏览器
 
@@ -55,3 +55,6 @@ sudo apt -f install
 - node
 - cnpm
 - 
+
+## vi命令行
+
