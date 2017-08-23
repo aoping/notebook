@@ -39,3 +39,4 @@ ab -n1000 -c10 http://www.imooc.com
     参考 https://github.com/nodejs/node-gyp#installation
         https://github.com/lovell/sharp/issues/598
 
+- mysql要安装community server版本
