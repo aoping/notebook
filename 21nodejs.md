@@ -24,6 +24,9 @@ ab -n1000 -c10 http://www.imooc.com
 
 #### npm插件
 - cheerio 解析html
+- moment 时间格式化
+- superagent    http request
+
 
 ### 会话持久化
 1. 存到cookies里面
