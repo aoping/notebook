@@ -22,3 +22,9 @@
     devtool
     module.noParse
     resolve.modules
+
+### 生成分析报告
+http://webpack.github.io/analyse
+```
+webpack --profile --json > stats.json
+```
