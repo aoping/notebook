@@ -27,5 +27,5 @@
 * [小技巧](cao-zuo-xi-tong.md)
 * [美](mei.md)
 * [粤语](yue-yu.md)
-* git
+* [git](git.md)
 
