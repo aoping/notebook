@@ -12,5 +12,6 @@
 
 ## 问题
 - Gradle 'android' project refresh failed
+
     解决: 清除缓存, 重启Gradle, File->Invalidate Caches / Restart... ;
 
