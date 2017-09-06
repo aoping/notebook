@@ -17,6 +17,7 @@
 
 ## 问题
 - visual studio code中使用emmet插件在.vue文件失效
+
 １、文件→设置，在右侧窗口添加以下代码：
 
 ```
