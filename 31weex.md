@@ -8,6 +8,9 @@
 ### weex bug
 - animation没有方向区分
 - weex 实例ios deviceModel bug
+- slider在ios上第一次就会触发change事件
+
+
 
 
 ##　viewappear
