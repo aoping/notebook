@@ -9,6 +9,7 @@
 ### JavaScript (ES6) code snippets 
 ### sass
 ### vscode-fileheader
+- ctrl+ alt+ i 插入文件头
 ### emmet
 
 
@@ -40,4 +41,5 @@
 ## 快捷键
 
 - 快速打开文件
-ctrl+p 输入要打开的文件 
+ctrl+p 输入要打开的文件
+
