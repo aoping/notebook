@@ -4,7 +4,7 @@
 - win+r 打开运行窗口
 - ctrl+ shift+esc 打开任务管理器
 - ctrl+shift+n    新建文件夹
-
+- ctrl+ 右键    打开cmd，并且直接进入目录
 
 ## 命令
 - 截屏 win+r再输入snippingtool
