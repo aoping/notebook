@@ -44,4 +44,8 @@ props在created阶段获取不到， 可以延迟获取
 - vue-router
 - vue-lazyload
 - vuex
+- axios
+
+
+
 
