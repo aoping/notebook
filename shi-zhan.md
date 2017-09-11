@@ -7,7 +7,7 @@
 1. 设计都有风格规范，颜色 字体
 2. 一般包括index mixin base icon reset variable几个文件
 3. 偏移用transform
-
+4. 居中    left:50%; margin-left: -20px;
 
 ## js
 - 取整  0.7 | 0
