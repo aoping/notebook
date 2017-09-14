@@ -1,3 +1,16 @@
+## 自动化工具
+### webpack
+- HMR 
+
+webpack-dev-server --contentbase src --inline --hot
+webpack --watch
+
+
+
+
+
+
+
 - 缓存
 
  [缓存版本控制代码](localSdk.js)
