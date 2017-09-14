@@ -16,7 +16,7 @@
 - api节流    debounce(原理延迟请求，再次触发清除上一个延迟)
 - 控制快速切换    setTimeout(,1000) 并且在此之前清理timeout, 这样就可以只执行最后一个
 - 取反    i=!i
-
+- 逆转    message.split('').reverse().join('')
 
 
 ## 浏览器
