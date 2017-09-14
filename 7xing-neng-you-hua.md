@@ -2,8 +2,9 @@
 ### webpack
 - HMR 
 
-webpack-dev-server --contentbase src --inline --hot
-webpack --watch
+webpack --watch (监听文件变化自动编译，但不刷新)
+webpack-dev-serve (要加query才能HMR)
+webpack-dev-serve --contentbase src --inline --hot
 
 
 
