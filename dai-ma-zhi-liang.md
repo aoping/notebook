@@ -8,3 +8,5 @@ https://zhuanlan.zhihu.com/p/29086959?utm_medium=social&utm_source=wechat_sessio
 
 vscode 
 安装 eslint standard 进行代码检查
+
+airbnb  standard两种规范
