@@ -1,3 +1,17 @@
+## 自动化工具
+### webpack
+- HMR 
+
+webpack --watch (监听文件变化自动编译，但不刷新)
+webpack-dev-serve (要加query才能HMR)
+webpack-dev-serve --contentbase -src --inline --hot
+
+
+
+
+
+
+
 - 缓存
 
  [缓存版本控制代码](localSdk.js)

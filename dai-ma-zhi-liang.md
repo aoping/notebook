@@ -4,3 +4,9 @@ https://zhuanlan.zhihu.com/p/29086959?utm_medium=social&utm_source=wechat_sessio
 - 自动化 - 使用工具自动检查代码质量
 - 流程化 - 将代码质量检查与代码流动过程绑定
 - 中心化 - 以团队整体为视角，集中管理代码规范，并实现质量状况透明化
+
+
+vscode 
+安装 eslint standard 进行代码检查
+
+airbnb  standard两种规范
