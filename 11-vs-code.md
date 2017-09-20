@@ -41,3 +41,23 @@
 
 - 快速打开文件
 ctrl+p 输入要打开的文件 
+
+- eslint 检查Vue文件
+
+```
+// 将设置放入此文件中以覆盖默认设置
+{
+  "files.associations": {
+   "*.vue": "vue"
+  },
+"editor.tabSize": 2,
+"editor.detectIndentation": false,
+"eslint.validate": [
+   "javascript",
+  "javascriptreact",
+   "vue"
+ ]
+}
+```
+
+
