@@ -9,7 +9,7 @@
 - animation没有方向区分
 - weex 实例ios deviceModel bug
 - slider在ios上第一次就会触发change事件
-
+- dom.getComponentRect不准确，时好时坏，建议不要使用（ios还好，Android不同版本表现不一致）
 
 
 
@@ -22,3 +22,5 @@
 - query参数
 - storage
 - broadcastchannel
+
+
