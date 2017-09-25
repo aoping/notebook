@@ -123,7 +123,30 @@ import D from ''
 
 
 #### 对象
+- 简洁写法
 
+```
+let o = {
+ a,
+ b
+}
+
+let o={
+    hello() {
+        console.log(1)
+    }
+}
+
+let a = 'b'
+let o = {
+ [a]: '1'
+}
+
+```
+
+- Object.is() 相当于===
+- Object.assign() 浅拷贝
+** 注意：只是拷贝对象的地址，不会拷贝引用**
 
 
 
