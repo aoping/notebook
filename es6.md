@@ -170,6 +170,6 @@ let o= {
 
 ```
 
-**注意用let in/of是取不到Symbol的，要用Object.getOwnPropertySymbols(obj)**
+**注意用let in/of是取不到Symbol的，要用Object.getOwnPropertySymbols(obj),想遍历所有属性要用Reflect.ownKeys(obj)**
 
 
