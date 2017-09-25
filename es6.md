@@ -55,6 +55,14 @@ console.log(0o767)
 - Array.from([], function) 把类数组转换成数组， map
 - [].fill() 填充
 - [].keys() [].values() [].entries()
+- [].copyWithin(0,1,2)
+- find findIndex
+- includes
+
+
+#### 函数
+
+
 
 
 
