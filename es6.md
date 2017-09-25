@@ -61,9 +61,35 @@ console.log(0o767)
 
 
 #### 函数
+- 函数默认值
+```
+function a(x, y = 'world'){
+    console.log(x,y)
+}
+```
+- 作用域问题
+```
+let x = '111'
+function a(x, y = x){
+    console.log(x,y)
+}
 
+a('222')  // 222,222 块作用域
 
+```
+- res参数    把离散值转换成数组
 
+```
+function a(...res){
+    for(let s of res) {
+        console.log(s)
+    }
+}
+
+```
+
+- 扩展运算符    把数组转换成离散值
+console.log(...[1,2,3])
 
 
 #### 模块化
