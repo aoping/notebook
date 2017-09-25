@@ -173,3 +173,23 @@ let o= {
 **注意用let in/of是取不到Symbol的，要用Object.getOwnPropertySymbols(obj),想遍历所有属性要用Reflect.ownKeys(obj)**
 
 
+#### Set Map
+- Set与数组    **Set中的元素不能重复**
+
+```
+let a = new Set()
+a.add(1)
+a.add(2)
+console.log(a.size) //注意是size而不是length
+
+let arr = [1,2,3,4,5]
+let b = new Set(arr)
+
+
+```
+
+- Map与对象    Map的key可以是任意类型，对象的key只能是字符串或Symbol
+
+
+
+
