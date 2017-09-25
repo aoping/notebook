@@ -248,6 +248,39 @@ Promise.all([
 
 
 #### Iterator for...of
+**数组已经实现了iterator, 对象没有实现**
+- 数组的iterator
+```
+let arr=['hello', 'world']
+let map=arr[Symbol.iterator]() // 有next方法
+console.log(map.next()) // {value: 'hello', done: false}
+console.log(map.next()) // {value: 'world', done: false}
+console.log(map.next()) // {value: undefined, done: true} done为true时循环停止
+
+
+```
+- 对象部署iterator
+```
+let obj = {
+  data: [ 'hello', 'world' ],
+  [Symbol.iterator]() {
+    const self = this;
+    let index = 0;
+    return {
+      next() {
+        if (index < self.data.length) {
+          return {
+            value: self.data[index++],
+            done: false
+          };
+        } else {
+          return { value: undefined, done: true };
+        }
+      }
+    };
+  }
+};
+```
 
 
 
