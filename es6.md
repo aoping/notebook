@@ -248,6 +248,8 @@ Promise.all([
 
 
 #### Iterator for...of
+- for...of 是遍历实现了iterator
+
 **数组已经实现了iterator, 对象没有实现**
 - 数组的iterator
 ```
@@ -281,6 +283,75 @@ let obj = {
   }
 };
 ```
+
+#### generator 解决异步编程的问题, 状态机
+
+**async await是generator的语法糖**
+
+```
+let g=function* (){
+    yeild 1
+    yeild 2
+    return 3
+}
+let k=g()
+console.log(k.next()) // {value: 1, done:false}
+console.log(k.next()) // {value: 2, done:false}
+console.log(k.next()) // {value: 3, done:true}
+console.log(k.next()) // {value: undefind, done:true}
+
+
+// 注意next返回的都是{value, done}
+// generator 返回的是iterator
+```
+
+```
+let obj = {};
+obj[Symbol.iterator]= function* () {
+    yeild 1
+    yeild 2
+    yeild 3
+}
+
+for(let value of obj){
+    console.log(value)
+}
+```
+- 状态机
+```
+let state= function* () {
+    while(1){
+        yeild 1
+        yeild 2
+        yeild 3
+    }
+}
+let status=state()
+console.log(status.next())
+console.log(status.next())
+console.log(status.next())
+console.log(status.next())
+
+```
+
+- async await
+```
+let state= async function() {
+    while(1){
+        await 1
+        await 2
+        await 3
+    }
+}
+let status=state()
+console.log(status.next())
+console.log(status.next())
+console.log(status.next())
+console.log(status.next())
+
+```
+
+
 
 
 
