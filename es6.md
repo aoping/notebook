@@ -39,6 +39,21 @@ generator yield返回的是iterator类型， 可以实现状态机（async和awa
 - 标签模板    处理多语言切换i18n 处理html防止攻击
 - raw
 
+#### 数值
+
+```
+console.log(0b111110111)
+console.log(0o767)
+```
+- Math.sign() 符号
+- Math.trunc() 取整舍弃小数部分
+- 
+
+#### 数组
+
+
+
+
 #### 模块化
 - export import
 
