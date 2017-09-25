@@ -227,6 +227,17 @@ console.log(map,map.get('a')) // 取值
 
 ```
 
+#### class
+- 定义
+- 继承 extends
+- getter setter
+- 静态方法static（通过类调用）
+- 静态属性在类外定义 class.static
+
+
+#### Promise
+
+
 
 
 
