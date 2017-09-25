@@ -39,3 +39,30 @@ generator yield返回的是iterator类型， 可以实现状态机（async和awa
 - 标签模板    处理多语言切换i18n 处理html防止攻击
 - raw
 
+#### 模块化
+- export import
+
+```
+
+export let A = 1
+export function B() {
+
+}
+
+export class C{
+
+}
+export default {
+    A,
+    B,
+    C
+}
+
+import {A, B, C} from ''
+import * as D from ''
+import D from ''
+
+```
+
+
+
