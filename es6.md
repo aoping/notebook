@@ -351,7 +351,59 @@ console.log(status.next())
 
 ```
 
+- 运用场景
+1. 抽奖
+**好处：抽奖次数不用定义为全局变量，抽奖逻辑和控制解耦**
+```
+let draw= function(count){
+    // 抽奖逻辑
+    console.log('left'+count+'次')    
+}
 
+let control= function* (count){
+    while(count>0){
+        count--
+        yeild draw(count)
+    }
+}
+
+let controller= control(5)
+// 抽奖
+controller.next()
+controller.next()
+controller.next()
+controller.next()
+
+```
+
+
+2. 长轮询
+
+```
+let ajax=function* (){
+    yeild new Promise((resolve, reject)=>{
+        setTimeout(function(){
+            resolve({code: 0})
+        },20)
+    })
+}
+
+let pull=function(){
+    let generator=ajax()
+    let step=generator.next()
+    step.value.then(d=>{
+        if(d.code!==0){
+            setTimeout(function(){ // 轮询
+                // console.log('继续')
+                pull() 
+            },1000)
+        } else{
+            console.log('结束')
+        }
+    }) // value就是Promise实例
+}
+pull()
+```
 
 
 
