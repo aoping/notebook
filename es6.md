@@ -408,6 +408,12 @@ pull()
 #### 修饰器 decorators
 babel-polyfill不能解析，要额外安装babel-plugin-transform-decorators-legacy
 
+- 属性修饰器
+
+第三方库修饰器的js库：core-decorators; npm install core-decorators
+修饰器用于埋点
+
+
 ```
 let readonly= function(target,name,descriptor){
     descriptor.writable=false
@@ -428,9 +434,50 @@ test.time=function(){
 console.log(test.time())
 ```
 
+- 类修饰器
 
+```
+let typename= function(target,name,descriptor){
+    target.myname='xxxx'
+}
 
+@typename
+class Test(){
+    @readonly
+    time(){
+        return '2017-09-25'
+    }
+}
 
+console.log(Test.myname)
+```
+
+- 埋点
+```
+let log=type=>{
+    return function(target,name,descriptor){
+        let method_src= descriptor.value
+        descriptor.value=(...args)=>{
+            method_src.apply(target,args)
+            console.log('埋点'+type)
+        }
+    }
+}
+
+class AD{
+    @log('show')
+    show() {
+        console.log('ad show')
+    }
+    
+    @log('click')
+    click() {
+        console.log('ad click')
+    }
+
+}
+
+```
 
 
 
