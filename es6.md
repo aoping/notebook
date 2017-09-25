@@ -221,7 +221,7 @@ console.log(map,map.get('a')) // 取值
 
 #### Proxy和Reflect
 - get set has ownKeys 
-- 用于校验解耦 要重点看
+- 用于校验解耦 要重点看!!!!!!!
 ```
 
 
