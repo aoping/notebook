@@ -236,6 +236,18 @@ console.log(map,map.get('a')) // 取值
 
 
 #### Promise
+- all 表示把多个promise当作一个promise,当所有promise状态都改变了，all的状态才改变
+```
+Promise.all([
+
+])
+```
+
+- race 只要有一个状态改变
+
+
+
+#### Iterator for...of
 
 
 
