@@ -153,7 +153,23 @@ let o = {
 
 #### Symbol(提供独一无二的值)
 
+```
+let a1 = Symbol()
+let a2 = Symbol()
+console.log(a1===a2) // false
+let a3 = Symbol.for('a3') // 赋值
+let a4 = Symbol.for('a3') // 取值
+console.log(a3===a4) // true
 
+let a = Symbol.for('abc')
+let o= {
+    [a]: 1,
+    'abc': 2,
+    'c': 3
+}
 
+```
+
+**注意用let in/of是取不到Symbol的，要用Object.getOwnPropertySymbols(obj)**
 
 
