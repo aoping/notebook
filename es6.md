@@ -23,3 +23,10 @@ class 构造函数 get set 继承 静态方法(static) 静态属性
 generator yield返回的是iterator类型， 可以实现状态机（async和await是generator的语法糖）
 第三方库修饰器的js库：core-decorators; npm install core-decorators
 修饰器用于埋点
+
+
+#### 字符串
+- padStart 可以用于日期补白 1->01
+
+
+
