@@ -174,6 +174,8 @@ let o= {
 
 
 #### Set Map
+**优先使用Map，要求唯一使用Set**
+
 - Set与数组    **Set中的元素不能重复**
 - Set WeakSet    WeakSet值只能是对象，没有.size 不能遍历 不能clear
 ```
@@ -215,6 +217,10 @@ console.log(map,map.get('a')) // 取值
 
 
 ```
+
+
+#### Proxy和Reflect
+
 
 
 
