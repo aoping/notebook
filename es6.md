@@ -405,6 +405,31 @@ let pull=function(){
 pull()
 ```
 
+#### 修饰器 decorators
+babel-polyfill不能解析，要额外安装babel-plugin-transform-decorators-legacy
+
+```
+let readonly= function(target,name,descriptor){
+    descriptor.writable=false
+    return descriptor
+}
+
+class Test(){
+    @readonly
+    time(){
+        return '2017-09-25'
+    }
+}
+
+let test=new Test()
+test.time=function(){
+    return 'xxxx'
+}
+console.log(test.time())
+```
+
+
+
 
 
 
