@@ -24,9 +24,18 @@ generator yield返回的是iterator类型， 可以实现状态机（async和awa
 第三方库修饰器的js库：core-decorators; npm install core-decorators
 修饰器用于埋点
 
+#### 解构赋值
+
+
+#### 正则表达式
+
 
 #### 字符串
 - padStart 可以用于日期补白 1->01
-
-
+- repeat 用于重复
+- 字符串模板
+- codePointAt fromCodePoint 用于处理编码大于\xFFFF的字符
+- include startsWith endsWith 处理字符串是否保护
+- 标签模板    处理多语言切换i18n 处理html防止攻击
+- raw
 
