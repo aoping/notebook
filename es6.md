@@ -51,6 +51,10 @@ console.log(0o767)
 
 #### 数组
 
+- Array.of() 创建数组
+- Array.from([], function) 把类数组转换成数组， map
+- [].fill() 填充
+- [].keys() [].values() [].entries()
 
 
 
