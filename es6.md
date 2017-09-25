@@ -175,21 +175,46 @@ let o= {
 
 #### Set Map
 - Set与数组    **Set中的元素不能重复**
-
+- Set WeakSet    WeakSet值只能是对象，没有.size 不能遍历 不能clear
 ```
 let a = new Set()
 a.add(1)
 a.add(2)
+a.has(1)
+a.delete(1)
+a.clear()
 console.log(a.size) //注意是size而不是length
 
 let arr = [1,2,3,4,5]
 let b = new Set(arr)
 
+// 去重
+let arr = [1,2,3,4,5,1,2]
+let b = new Set(arr)
+
+
+
 
 ```
 
 - Map与对象    Map的key可以是任意类型，对象的key只能是字符串或Symbol
+- Map WeakMap WeakMap的key只能是对象，没有.size 不能遍历 不能clear
 
+```
+let map = new Map()
+let arr = ['123']
+map.set(arr, 456)
+map.delete(arr)
+map.clear()
+
+console.log(map,map.get(arr),map.size) // 取值
+
+
+let map = new Map([['a',123],['b',456]])
+console.log(map,map.get('a')) // 取值
+
+
+```
 
 
 
