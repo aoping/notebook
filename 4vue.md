@@ -47,5 +47,10 @@ props在created阶段获取不到， 可以延迟获取
 - axios
 
 
+#### 问题
+- watch 里的data属性没有绑定
+
+
+
 
 
