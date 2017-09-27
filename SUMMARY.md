@@ -34,4 +34,5 @@
 * [实战](shi-zhan.md)
 * [任务](ren-wu.md)
 * [DOTNET](c.md)
+* [资源](zi-yuan.md)
 
