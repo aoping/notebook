@@ -1,7 +1,9 @@
 # 参考链接
 Mark Otto 编写的HTML/CSS代码风格指南    http://hao.jobbole.com/htmlcss-code-guide-by-mark-otto/
 awesome-css-cn    https://github.com/jobbole/awesome-css-cn
+css法则    https://github.com/necolas/idiomatic-css/tree/master/translations/zh-CN
 
+  
 
 # 原则
 - 最大程度复用css,少写相同的代码
