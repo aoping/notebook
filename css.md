@@ -7,7 +7,12 @@ Mark Otto 编写的HTML/CSS代码风格指南    http://hao.jobbole.com/htmlcss-
 - 最大程度复用css,少写相同的代码
 - 面向属性命名
 - 三无原则 无id 无层级 无标签
-
+- JS专用class选择器名以 .js- 为前缀；
+- 单一功用class名以 .u- 为前缀，如 .u-underline、.u-capitalize 等；
+- 引入有意义的连字符和驼峰法，以此强调元件、子元件、修改器名的分隔；
+- 状态类class（一般由JS来控制）名以 .is- 为前缀，如 .is-disabled 等；
+- 使用新的CSS变量名规则： [属性]-[值]--[元件] ；
+- 混写只在万不得已的补漏时出现，只能以 .m- 作为前缀。
 
 # 架构
 ## 关于reset
