@@ -1,6 +1,6 @@
 # 参考链接
 Mark Otto 编写的HTML/CSS代码风格指南    http://hao.jobbole.com/htmlcss-code-guide-by-mark-otto/
-
+awesome-css-cn    https://github.com/jobbole/awesome-css-cn
 
 
 # 原则
@@ -13,6 +13,19 @@ Mark Otto 编写的HTML/CSS代码风格指南    http://hao.jobbole.com/htmlcss-
 - 状态类class（一般由JS来控制）名以 .is- 为前缀，如 .is-disabled 等；
 - 使用新的CSS变量名规则： [属性]-[值]--[元件] ；
 - 混写只在万不得已的补漏时出现，只能以 .m- 作为前缀。
+
+# 风格
+
+- 在多个选择器的规则集中，每个单独的选择器独占一行。
+- 在规则集的左大括号前保留一个空格。
+- 在声明块中，每个声明独占一行。
+- 每个声明前保留一级缩进。
+- 每个声明的冒号后保留一个空格。
+- 对于声明块的最后一个声明，始终保留结束的分号。
+- 规则集的右大括号保持与该规则集的第一个字符在同一列。
+- 每个规则集之间保留一个空行。
+
+
 
 # 架构
 ## 关于reset
