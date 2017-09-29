@@ -14,7 +14,7 @@ Convert.ToString(86,2) //十进制转二进制
 ![](/assets/QQ截图20170928233027.jpg)
 
 1B=8b
-
+int 4B
 
 ## .net core
 
